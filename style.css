@@ -1,0 +1,47 @@
+/* Day 3 */
+
+h1 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+/* profile-name and h2ClassName are located in the same element. However, id=profile-name superseded class=h2ClassName*/
+#profile-name {
+    font-size: 20;
+    color: green;
+    text-align: left;
+    /* margin: 1px;
+    border: 10px; */
+    padding: 30px 1px 20px 10px ;
+}
+
+.h2ClassName {
+    color: maroon;
+    background-color: gray;
+}
+
+.profile-img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+/*****************/
+.body-div{
+    text-align: center;
+}
+
+.image-div{
+    background-color: salmon;
+    padding: 10px;
+}
+.text-div{
+    background-color: moccasin;
+    width: 50%;
+    align-text: left;
+}
+.list-div{
+    background-color: peru;
+}
